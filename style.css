@@ -13,11 +13,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 .logo {
-    max-height: 50px; /* Adjust height as needed */
+    max-height: 50px; /* Adjust height to match the text size */
     margin-bottom: 10px; /* Add some space below the logo */
 }
 
@@ -29,6 +30,9 @@ h1 {
 form {
     margin-top: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 label {
@@ -37,7 +41,7 @@ label {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 200px; /* Adjust width as needed */
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
