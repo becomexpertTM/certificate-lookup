@@ -6,8 +6,19 @@ body {
     margin: auto;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px; /* Adjust height as needed */
+    margin-right: 20px;
+}
+
 h1 {
-    text-align: center;
+    margin: 0;
 }
 
 form {
