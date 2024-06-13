@@ -13,12 +13,13 @@ header {
 }
 
 .logo {
-    height: 50px; /* Adjust height as needed */
+    max-height: 50px; /* Adjust height as needed */
     margin-right: 20px;
 }
 
 h1 {
     margin: 0;
+    font-size: 24px; /* Adjust as needed */
 }
 
 form {
