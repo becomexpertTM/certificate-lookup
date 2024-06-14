@@ -25,11 +25,11 @@ document.getElementById('lookup-form').addEventListener('submit', function(e) {
             });
             
             if (!found) {
-                result.innerHTML = '<p>Certificate not found. Please check the ID and try again.</p>';
+                result.innerHTML = '<p>Letter not found. Please check the ID and try again.</p>';
             }
         })
         .catch(error => {
             console.error('Error fetching the data:', error);
-            document.getElementById('result').innerHTML = '<p>There was an error fetching the certificate data. Please try again later.</p>';
+            document.getElementById('result').innerHTML = '<p>There was an error fetching the letter data. Please try again later.</p>';
         });
 });
