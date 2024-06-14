@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recommendation Lookup</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://apis.google.com/js/api.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -13,8 +12,7 @@
         <img src="logo.png" alt="Company Logo" class="logo">
         <h1>Recommendation Lookup</h1>
     </header>
-    <button id="auth-button" onclick="handleAuthClick()">Authorize</button>
-    <form id="lookup-form" style="display: none;">
+    <form id="lookup-form">
         <label for="certificate-id">Enter Recommendation Letter ID:</label>
         <input type="text" id="certificate-id" name="certificate-id" required>
         <button type="submit">Lookup</button>
