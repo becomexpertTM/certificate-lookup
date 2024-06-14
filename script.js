@@ -15,10 +15,10 @@ document.getElementById('lookup-form').addEventListener('submit', function(e) {
                 const [id, name, link] = row.split(',');
                 if (id.trim() === certificateId.trim()) {
                     result.innerHTML = `
-                        <h2>Certificate Details</h2>
+                        <h2>Letter Details</h2>
                         <p><strong>ID:</strong> ${id}</p>
                         <p><strong>Name:</strong> ${name}</p>
-                        <p><strong>Certificate Link:</strong> <a href="${link.trim()}" target="_blank">View Certificate</a></p>
+                        <p><strong>Letter Link:</strong> <a href="${link.trim()}" target="_blank">View Letter</a></p>
                     `;
                     found = true;
                 }
